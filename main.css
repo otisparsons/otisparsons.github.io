@@ -11,6 +11,15 @@ ul {
   padding: 0;
 }
 
+.fa {
+  padding: 2px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  color: whitesmoke;
+}
+
 a {
   text-decoration: none;
 }
