@@ -127,6 +127,12 @@ section {
   display: block;
 }
 
+a:hover {
+  color: darkcyan;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+
 .featured-desc {
   color: #3b3b3b;
   margin-top: 3em;
