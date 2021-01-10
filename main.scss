@@ -23,7 +23,7 @@ ul{
 .fa {
     padding: 2px;
     font-size: 30px;
-    width: 50px;
+    width: 35px;
     text-align: center;
     text-decoration: none;
     color: whitesmoke;
@@ -73,6 +73,7 @@ header{
     display: none;
 }
 
+
 .hero{
     background: darkgray;
     color: whitesmoke;
@@ -103,6 +104,17 @@ header{
 section{
     padding: 4em 2em;
     text-align: center;
+
+    .project-links{
+    
+         a {
+        color: darkcyan;
+        text-align: left;
+        padding-top: 10px;
+
+    }
+       
+    }
 }
 
 .featured{
