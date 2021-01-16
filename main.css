@@ -2,7 +2,7 @@
 body {
   height: 100vh;
   margin: 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .right-transition2 {
@@ -38,8 +38,8 @@ img {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
 }
 
 .nav-container a {
@@ -51,8 +51,8 @@ header {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   padding: 2em;
 }
 
@@ -98,7 +98,7 @@ header a {
 
 .meet span {
   margin-top: 1em;
-  margin-right: .5em;
+  margin-right: 0.5em;
 }
 
 .scroll {
@@ -125,15 +125,15 @@ section .project-links a {
   text-transform: uppercase;
   font-weight: bold;
   color: darkcyan;
-  letter-spacing: .2em;
-  font-size: .85em;
+  letter-spacing: 0.2em;
+  font-size: 0.85em;
 }
 
 .featured-title {
   color: black;
   font-weight: bold;
   font-size: 1.3em;
-  margin-top: -.4em;
+  margin-top: -0.4em;
   display: block;
 }
 
@@ -193,17 +193,27 @@ section .project-links a {
   margin-bottom: 4em;
 }
 
+footer {
+  background-color: darkgray;
+  color: whitesmoke;
+  text-align: center;
+  padding: 15px;
+}
+
 @media only screen and (min-width: 800px) {
-  .featured, .portfolio {
+  .featured,
+  .portfolio {
     text-align: left;
   }
-  .featured, .portfolio-container {
+  .featured,
+  .portfolio-container {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 40% auto;
-        grid-template-columns: 40% auto;
+    grid-template-columns: 40% auto;
   }
-  .left, .portfolio-left {
+  .left,
+  .portfolio-left {
     display: -ms-grid;
     display: grid;
     place-content: center;
@@ -220,8 +230,8 @@ section .project-links a {
   .skills-container ul {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (auto)[3];
-        grid-template-columns: repeat(3, auto);
+    -ms-grid-columns: (auto) [3];
+    grid-template-columns: repeat(3, auto);
     grid-gap: 1em;
   }
   .portfolio {
@@ -240,7 +250,7 @@ section .project-links a {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 65% auto;
-        grid-template-columns: 65% auto;
+    grid-template-columns: 65% auto;
     background: darkgray;
   }
   .nav-container header {
@@ -263,8 +273,8 @@ section .project-links a {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
     width: 7em;
     float: right;
   }
@@ -275,7 +285,7 @@ section .project-links a {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 66% auto;
-        grid-template-columns: 66% auto;
+    grid-template-columns: 66% auto;
     background: darkgray;
     padding: 0;
   }
@@ -357,12 +367,12 @@ section .project-links a {
 @-webkit-keyframes circleAnim {
   from {
     -webkit-transform: translate(262px, 798px);
-            transform: translate(262px, 798px);
+    transform: translate(262px, 798px);
     z-index: 5;
   }
   to {
     -webkit-transform: translate(262px, 830px);
-            transform: translate(262px, 830px);
+    transform: translate(262px, 830px);
     z-index: 5;
   }
 }
@@ -370,12 +380,12 @@ section .project-links a {
 @keyframes circleAnim {
   from {
     -webkit-transform: translate(262px, 798px);
-            transform: translate(262px, 798px);
+    transform: translate(262px, 798px);
     z-index: 5;
   }
   to {
     -webkit-transform: translate(262px, 830px);
-            transform: translate(262px, 830px);
+    transform: translate(262px, 830px);
     z-index: 5;
   }
 }
