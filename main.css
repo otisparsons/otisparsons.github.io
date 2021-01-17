@@ -130,6 +130,8 @@ section .project-links a {
 .featured {
   position: relative;
   background-color: #0A192F;
+
+  
 }
 
 .subtitle {
@@ -156,6 +158,12 @@ section .project-links a {
   line-height: 1.8em;
   font-weight: 500;
 }
+
+.skillsused{
+  color: #55D9BE;
+}
+
+
 
 .skills {
   background: #0A192F;
@@ -327,6 +335,10 @@ footer {
     max-width: 500px;
     background: #0A192F;
   }
+}
+
+.aboutme{
+  color:#7E88A5;
 }
 
 @media only screen and (min-width: 1250px) {
