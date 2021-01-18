@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,700;1,400&display=swap");
 body {
   height: 100vh;
-  margin: 0;
+  margin: 0;: border-box;
   font-family: "Poppins", sans-serif;
   background: #0A192F;
 }
@@ -9,7 +9,6 @@ body {
 h1{
   color: #55D9BE;
 }
-
 
 .right-transition2 {
   border-radius: 80%;
@@ -258,9 +257,23 @@ footer {
   }
   .portfolio {
     padding-top: 7em;
+    
+  }
+
+  .portfolio-container {
+    display: flex;
+    justify-content: space-between;
   }
   .portfolio-container img {
     margin-left: 2em;
+    filter: sepia(100%) hue-rotate(100deg) saturate(200%) opacity(60%);
+    transition: all 0.5s ease-in-out;
+    width: auto;
+    height: auto;
+  }
+  .portfolio-container img:hover {
+    filter: none;
+
   }
 }
 
@@ -339,7 +352,8 @@ footer {
 
 .aboutsection{
   display: flex;
-  text-align: left;
+  flex-direction: column;
+  text-align: justify;
   color:#7E88A5;
   gap: 60px;
 }
@@ -356,45 +370,45 @@ footer {
 .experience{
   display: flex;
 }
+
 .tab {
   float: left;
   border: 1px solid #ccc;
   background-color: #0A192F;
   width: 30%;
-  height: 300px;
+  height: auto;
 }
 
 .tab button {
   display: block;
   background-color: inherit;
   color:#55D9BE;
-  padding: 22px 16px;
+  padding: 22px 10px;
   width: 100%;
   border: none;
   outline: none;
   text-align: left;
   cursor: pointer;
+  word-wrap: break-word;
 }
 
-/* Change background color of buttons on hover */
 .tab button:hover {
   background-color: #ddd;
 }
 
-/* Create an active/current "tab button" class */
 .tab button.active {
   background-color: #7E88A5;
 }
 
-/* Style the tab content */
 .tabcontent {
   float: left;
   padding: 0px 12px;
   border: 1px solid #ccc;
   width: 70%;
   border-left: none;
-  height: 300px;
+  height: auto;
   display: none;
+  text-align: left;
 }
 
 
@@ -411,21 +425,27 @@ footer {
   .hero .content {
     padding: 6em 8em 6em 10em;
   }
+
+  .aboutsection{
+  display: flex;
+  flex-direction: row;
+}
+.tab {
+  float: left;
+  border: 1px solid #ccc;
+  background-color: #0A192F;
+  width: 30%;
+  height: 300px;
 }
 
-@media only screen and (min-width: 1250px) {
-  header {
-    padding: 2em 2em 2em 10em;
-  }
-  .social-header {
-    padding: 2em 10em 2em 0;
-  }
-  section {
-    padding: 10em 10em 4em 10rem;
-  }
-  .hero .content {
-    padding: 6em 8em 6em 10em;
-  }
+.tabcontent {
+  float: left;
+  padding: 0px 12px;
+  border: 1px solid #ccc;
+  width: 70%;
+  border-left: none;
+  height: 300px;
+  display: none;
 }
 
 @media only screen and (min-width: 1550px) {
