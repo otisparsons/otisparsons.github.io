@@ -135,7 +135,7 @@ section .project-links a {
 
 .subtitle {
   text-transform: uppercase;
-  font-weight: bold;
+   font-weight: 700;
   color:#55D9BE;
   letter-spacing: 0.2em;
   font-size: 0.85em;
@@ -144,7 +144,7 @@ section .project-links a {
 
 .featured-title {
   color:#7E88A5;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 1.3em;
   margin-top: -0.4em;
   display: block;
@@ -153,9 +153,10 @@ section .project-links a {
 .featured-desc {
   color:#7E88A5;
   margin-top: 3em;
-  font-size: 1.8em;
-  line-height: 1.8em;
+  font-size: 1.5em;
+  line-height: 1.4em;
   font-weight: 500;
+  text-align: left;
 }
 
 .skillsused{
@@ -407,8 +408,13 @@ footer {
   width: 70%;
   border-left: none;
   height: auto;
-  display: none;
   text-align: left;
+  overflow: hidden;
+}
+
+h5 {
+font-size: 1em;
+font-weight: 500;
 }
 
 
@@ -445,7 +451,6 @@ footer {
   width: 70%;
   border-left: none;
   height: 300px;
-  display: none;
 }
 
 @media only screen and (min-width: 1550px) {
